@@ -1,0 +1,31 @@
+#python program to print first n even numbers
+#0 is also an even number
+
+n= int(input("enter a number : "))
+for i in range (n*2):
+    if i%2==0:
+        print(i)
+        
+# 2nd method:
+
+
+n= int(input("enter a number : "))
+c=-2
+for i in range (n):
+    c+=2
+    print(c,end=" ")
+    
+    
+#3rd method : even number starting with 2
+
+
+n= int(input("enter a number : "))
+c=0
+for i in range (n):
+    c+=2
+    print(c,end=" ")
+    
+    
+
+
+    
