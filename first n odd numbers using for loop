@@ -1,0 +1,19 @@
+#python program to print first n odd numbers
+
+
+n= int(input("enter a number : "))
+for i in range (n*2):
+    if i%2==1:
+        print(i,end=" ")
+        
+        
+        
+#2nd method:
+
+
+
+n= int(input("enter a number : "))
+c=-1
+for i in range (n):
+    c+=2
+    print(c,end=" ")
