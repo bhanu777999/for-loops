@@ -1,0 +1,8 @@
+# sum of even natural numbers upto n
+
+n=int(input("enter a number: "))
+c=0
+for i in range(n+1):
+    if i%2==0:
+        c+=i
+print(c)
